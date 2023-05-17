@@ -1,3 +1,45 @@
-<%- include('partials/header.ejs')%> <%- include('partials/navbar') %>
-<div class="container"></div>
+<%- include('partials/header.ejs')%>
+<div class="container py-4 my-4 rounded-2" style="--bs-border-opacity: 0.75">
+	<%- include('partials/navbar.ejs')%>
+	<div class="row justify-content-center">
+		<div class="col-md-6 text-center py-3">
+			<img
+				src="/image/profile.png"
+				class="img-fluid"
+				width="200px"
+				height="200px"
+				alt="art.antonio"
+			/>
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="col-md-6 text-center">
+			<b>Hi 👋 I'm Art</b>
+			<h2 class="text-success">Web Developer</h2>
+			<p>
+				Hello I am Art Antonio, former ITO service delivery
+				consultant in DXC Technology Philippines. I work internally
+				as CI Automation developer.
+			</p>
+		</div>
+	</div>
+	<hr />
+	<div class="row">
+		<div class="col-md-12">
+			<h4 class="text-success text-center">Tech Stack</h4>
+		</div>
+		<div class="col-md-2">
+			<img
+				src="/image/js.png"
+				class="img-fluid"
+				width="100px"
+				height="100px"
+				alt="js"
+			/>
+		</div>
+		<div class="col-md-2">
+			<img src="/image/php-def.png" class="img-fluid" alt="js" />
+		</div>
+	</div>
+</div>
 <%- include('partials/footer.ejs')%>
