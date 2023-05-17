@@ -5,7 +5,10 @@ const app = express();
 //register view engine
 
 app.set('view engine', 'ejs');
-app.set(express.static('public'));
+
+const path = require('path');
+const publicDirectoryPath = path.join(__dirname, '../public');
+app.use(express.static(publicDirectoryPath));
 app.listen(3000);
 //morgan
 // app.use(morgan('dev'))
