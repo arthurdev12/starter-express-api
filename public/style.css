@@ -4,7 +4,9 @@ p {
 	font-family: 'Montserrat', sans-serif !important;
 	font-family: 'Open Sans', sans-serif !important;
 }
-
+.html {
+	background-color: #60c2a4;
+}
 .logo {
 	margin-left: 10px;
 	width: 50px;
@@ -25,6 +27,9 @@ ion-icon {
 	padding: 10px;
 	box-sizing: border-box;
 }
+.tech-background {
+	background-color: var(--bs-success);
+}
 .social-links {
 	display: flex;
 	justify-content: center;
@@ -40,10 +45,10 @@ ion-icon {
 	color: #365088;
 }
 .github {
-	color: #161616;
+	color: #000000;
 }
 .github:hover {
-	color: #ffffff;
+	color: #e7e7e7;
 }
 .linked {
 	color: #0077b5;
@@ -67,5 +72,11 @@ ion-icon {
 	color: #308aa0 !important;
 }
 .footer-bg {
-	background-color: #308aa0 !important;
+	box-sizing: border-box;
+	width: 100%;
+
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: relative;
 }
