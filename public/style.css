@@ -4,3 +4,68 @@ p {
 	font-family: 'Montserrat', sans-serif !important;
 	font-family: 'Open Sans', sans-serif !important;
 }
+
+.logo {
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+ion-icon {
+	font-size: 32px;
+}
+.topnav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+}
+.topnav-link {
+	display: flex;
+	justify-content: end;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.social-links {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.fb {
+	color: #3b5998;
+}
+.fb:hover {
+	color: #365088;
+}
+.github {
+	color: #161616;
+}
+.github:hover {
+	color: #ffffff;
+}
+.linked {
+	color: #0077b5;
+}
+.linked:hover {
+	color: #0283c9;
+}
+.copyrights {
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.see-my-work-btn {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.text-success {
+	color: #308aa0 !important;
+}
+.footer-bg {
+	background-color: #308aa0 !important;
+}

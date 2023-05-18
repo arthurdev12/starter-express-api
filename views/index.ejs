@@ -1,6 +1,7 @@
 <%- include('partials/header.ejs')%>
 <div class="container py-4 my-4 rounded-2" style="--bs-border-opacity: 0.75">
 	<%- include('partials/navbar.ejs')%>
+	<hr />
 	<div class="row justify-content-center">
 		<div class="col-md-6 text-center py-3">
 			<img
@@ -11,21 +12,29 @@
 			/>
 		</div>
 	</div>
+
 	<div class="row justify-content-center">
 		<div class="col-md-6 text-center">
 			<b>Hi 👋 I'm Art</b>
-			<h2 class="text-success">Web Developer</h2>
-			<p>
+			<h2 class="text-success py-2">Web Developer</h2>
+			<p class="text-light py-2">
 				Hello I am Art Antonio, former ITO service delivery
 				consultant in DXC Technology Philippines. I work internally
 				as CI Automation developer.
 			</p>
 		</div>
 	</div>
+	<div class="row justify-content-center">
+		<div class="col-md-2 text-center">
+			<button href="#" class="btn btn-primary see-my-work-btn">
+				See my work
+			</button>
+		</div>
+	</div>
 	<hr />
-	<div class="row">
+	<div class="row my-4">
 		<div class="col-md-12">
-			<h4 class="text-success text-center">Tech Stack</h4>
+			<h4 class="text-success text-center">Technology Handled</h4>
 		</div>
 		<div class="col-md-2">
 			<img
@@ -33,18 +42,10 @@
 				class="img-fluid"
 				width="100px"
 				height="100px"
-				alt="js"
-			/>
-		</div>
-		<div class="col-md-2">
-			<img
-				src="/ai/jsAsset 2.png"
-				class="img-fluid"
-				width="100px"
-				height="100px"
-				alt="js"
 			/>
 		</div>
 	</div>
+
+	<div class="row"></div>
+	<%- include('partials/footer.ejs')%>
 </div>
-<%- include('partials/footer.ejs')%>
